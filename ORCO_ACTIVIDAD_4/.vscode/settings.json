@@ -1,0 +1,7 @@
+{
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Genera un mensaje de commit siguiendo el estándar de Conventional Commits. El formato debe ser: <tipo>(<ámbito opcional>): <descripción>. Los tipos pueden ser feat, fix, docs, style, refactor, test, chore. La descripción debe ser concisa y en español."
+    }
+  ]
+}
