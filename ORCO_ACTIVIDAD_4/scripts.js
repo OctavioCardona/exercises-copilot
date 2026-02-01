@@ -7,6 +7,10 @@ document.getElementById('saveNote-btn').addEventListener('click', function() {
         localStorage.setItem('notes', JSON.stringify(notes));
         noteInput.value = '';
         displayNotes();
+
+        // Reiniciar el contador de caracteres
+        const contador = document.getElementById('contador-caracteres');
+        contador.textContent = 'Caracteres: 0';
     }
 });
 
